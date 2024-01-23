@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Readme Generator</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <!-- パート1：ヘッダー -->
+    <header>
+        <h1>Professional Readme Generator</h1>
+        <nav>
+            <!-- <a href="#">Home</a> -->
+            <a href="#">Preview</a>
+            <a href="#">Download</a>
+        </nav>
+    </header>
+
+    <!-- パート2：メインコンテンツ -->
+    <main>
+
+        <!-- Part 1: Form Creation -->
+        <form>
+            <p>md cheat sheet things</p>
+            <!-- Project Title Input -->
+            <div>
+                <label for="projTitle">Project Title</label>
+                <input type="text" id="projTitle" name="projTitle" required placeholder="Your-Project-Title">
+            </div>
+
+            <!-- Description Textarea -->
+            <div>
+                <label for="description">Description</label>
+                <textarea id="description" name="description" required
+                    placeholder="Provide a short description explaining the what, why, and how of your project."></textarea>
+            </div>
+
+            <!-- Link to Repo Textarea -->
+            <div>
+                <label for="repoLink">Repository Link</label>
+                <input id="repoLink" name="repoLink" required placeholder="Provide your repo link"></input>
+            </div>
+
+            <div>
+                <label for="mockUp">Mock Up</label>
+                <input id="mockUp" name="mockUp" required placeholder="Provide a mockup"></input>
+            </div>
+
+            <!-- Install Instructions Textarea -->
+            <div>
+                <label for="instalInstruct">Install Instructions</label>
+                <textarea id="instalInstruct" name="instalInstruct" required
+                    placeholder="What are the steps required to install your project?"></textarea>
+            </div>
+
+            <!-- Usage Information Textarea -->
+            <div>
+                <label for="usageInfo">Usage Information</label>
+                <textarea id="usageInfo" name="usageInfo" required
+                    placeholder="Provide instructions and examples for use."></textarea>
+            </div>
+            <!-- Technologies Textarea -->
+            <div>
+                <label for="technologies">Technologies</label>
+                <textarea id="technologies" name="technologies" required
+                    placeholder="What Technologies did you use?"></textarea>
+            </div>
+
+            <!-- Contribution Guidelines Textarea -->
+            <div>
+                <label for="contGuidelines">Contribution Guidelines</label>
+                <textarea id="contGuidelines" name="contGuidelines" required
+                    placeholder="Include guidelines for how to contribute."></textarea>
+            </div>
+
+            <!-- Test Instructions Textarea -->
+            <div>
+                <label for="testInstruct">Test Instructions</label>
+                <textarea id="testInstruct" name="testInstruct" required
+                    placeholder="Describe how to run tests for your application."></textarea>
+            </div>
+
+            <!-- Credits Input -->
+            <div>
+                <label for="credits">Credits</label>
+                <input type="text" id="credits" name="credits" required placeholder="Rutgers University, Chatgpt-4">
+            </div>
+
+            <!-- Features Textarea -->
+            <div>
+                <label for="features">Features</label>
+                <textarea id="features" name="features" required
+                    placeholder="List the features of your project."></textarea>
+            </div>
+
+            <!-- License Dropdown -->
+            <div>
+                <label for="license">Select License</label>
+                <select id="license" name="license" required>
+                    <option value="MIT">MIT License</option>
+                    <option value="GPL">GNU General Public License (GPL)</option>
+                    <option value="Apache_2_0">Apache License 2.0</option>
+                    <option value="BSD_2_Clause">BSD License 2-clause</option>
+                    <option value="BSD_3_Clause">BSD License 3-clause</option>
+                    <option value="LGPL">GNU Lesser General Public License (LGPL)</option>
+                    <option value="MPL_2_0">Mozilla Public License 2.0</option>
+                    <option value="CC0_1_0">Creative Commons Zero v1.0 Universal</option>
+                    <option value="EPL_1_0">Eclipse Public License 1.0</option>
+                    <option value="MS_PL">Microsoft Public License</option>
+                    <option value="BSL_1_0">Boost Software License 1.0</option>
+                    <option value="none">NONE</option>
+
+                </select>
+            </div>
+
+            <!-- Github Username Input -->
+            <div>
+                <label for="github">Github Username</label>
+                <input type="text" id="github" name="github" required placeholder="cjswayne42">
+            </div>
+
+            <!-- Email Address Input -->
+            <div>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required placeholder="cjswayne42@gmail.com">
+            </div>
+        </form>
+
+    </main>
+
+    <!-- パート3：フッター -->w
+    <footer>
+        <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
