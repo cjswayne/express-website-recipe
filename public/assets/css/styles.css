@@ -46,7 +46,9 @@ main {
     overflow-y: auto; /* Enable vertical scrolling */
     padding: 20px 3%;
     box-sizing: border-box;
-    justify-content: center; /* Include padding in height calculation */
+    justify-content: center; 
+    flex-direction: column;
+    /* Include padding in height calculation */
     /* ... (scrollbar styles) */
 }
 
